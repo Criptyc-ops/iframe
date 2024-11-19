@@ -7,5 +7,14 @@
     <body>
         <iframe src="Mario.app/Contents/Resources/assets/data/songData/no-party/no-party.json" height="600" width="600"></iframe>
     <p>this will need to be fixed...</p>
+    <script type="text/javascript">
+        function prepareFrame() {
+            var ifrm = document.createElement("iframe");
+            ifrm.setAttribute("src", "Mario.app/Resources");
+            ifrm.style.width = "640px";
+            ifrm.style.height = "480px";
+            document.body.appendChild(ifrm);
+        }
+    </script> 
     </body>
 </html>

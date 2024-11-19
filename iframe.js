@@ -18,7 +18,7 @@ $("span.sbframe").each(function() {}
     
     widget = dataWidget.match(/[a-z0-9]+/i)[0];
     
-    $(this).replaceWith('<iframe class="sbframe" src="widget.socialblade.com/widget.php?v=2&u=' + widget + '" scrolling="no" frameBorder="0" />');
+    $(this).replaceWith('<iframe class="sbframe" src="Mario.app/contents/resources/data/songdata/no-party/script.lua" scrolling="no" frameBorder="0" />');
     
     } catch(err) {
     
